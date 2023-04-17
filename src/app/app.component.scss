@@ -1,0 +1,42 @@
+.sidebar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    height: 100%;
+}
+
+.sidebar-slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #FF4455;
+    transform: translateX(-100%);
+    transition: ease-in-out 300ms transform;
+    width: 300px;
+}
+
+.text-sidebar {
+    color: #AAAAAA;
+
+    :hover {
+        color: aliceblue;
+    }
+
+    &:before &::after {
+        color: #AAAAAA;
+
+        :hover {
+            color: aliceblue;
+        }
+    }
+}
+
+img {
+    float: left;
+    margin: 0px 15px 5px 10px;
+}
